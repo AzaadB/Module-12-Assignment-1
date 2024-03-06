@@ -1,4 +1,5 @@
 //EventListener for the buttons//
+document.getElementById("refresh").addEventListener('click', fetchContacts);
 document.getElementById("addContact").addEventListener('click', addContact);
 
 //CREATING A FUNCTION TO RETRIEVE THE CONTACTS FROM THE DATABASE//
